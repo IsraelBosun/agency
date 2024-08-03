@@ -18,31 +18,31 @@ export function InfiniteMovingCardsDemo() {
 const testimonials = [
   {
     quote:
-      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "Charles Dickens",
-    title: "A Tale of Two Cities",
+      "Working with this team was an exceptional experience. They transformed our vision into a stunning and functional website that perfectly represents our brand.",
+    name: "Ngozi Okafor",
+    title: "CEO, Tech Innovators Ltd.",
   },
   {
     quote:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-    name: "William Shakespeare",
-    title: "Hamlet",
+      "Their professionalism and attention to detail are unmatched. The app they developed for us not only met but exceeded our expectations.",
+    name: "Tunde Adesanya",
+    title: "Founder, Green Solutions Inc.",
   },
   {
-    quote: "All that we see or seem is but a dream within a dream.",
-    name: "Edgar Allan Poe",
-    title: "A Dream Within a Dream",
-  },
-  {
-    quote:
-      "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-    name: "Jane Austen",
-    title: "Pride and Prejudice",
+    quote: "They delivered a user-friendly and aesthetically pleasing website on time and within budget. Highly recommended!",
+    name: "Amaka Nwosu",
+    title: "Marketing Director, Creative Ventures",
   },
   {
     quote:
-      "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-    name: "Herman Melville",
-    title: "Moby-Dick",
+      "Their team is skilled and knowledgeable. They provided valuable insights and suggestions throughout the development process, resulting in a top-notch product.",
+    name: "Chidi Eze",
+    title: "Product Manager, Digital Horizons",
+  },
+  {
+    quote:
+      "From start to finish, their professionalism and commitment to quality were evident. Our app is now a vital tool for our business, thanks to their expertise.",
+    name: "Folake Ogunleye",
+    title: "COO, Bright Future Enterprises",
   },
 ];

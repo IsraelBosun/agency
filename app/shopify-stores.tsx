@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const stores = [
   {
-    image: "/images/image2.png",
+    image: "https://drive.google.com/uc?export=view&id=1vIv944q9ZfdsrftWwx5Piodt0Rfu954V",
     quote: "Bird showed us to get started, what to do, and how to do it.",
     name: "Jason Scer",
   },
@@ -33,11 +33,11 @@ const ShopifyStores = () => {
     >
       <div className=" p-4   mx-auto relative z-10  w-full ">
         <div className="text-4xl py-10 md:pb-8 md:text-7xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 to-neutral-500 bg-opacity-50">
-          Shopify Stores <br />
+          Web Apps <br />
         </div>
 
         <p className="mt-4 text-lg font-normal  text-neutral-800 max-w-lg text-center mx-auto">
-          We create stunning Shopify stores that are designed to convert.
+          We create stunning Websites that are designed to convert.
         </p>
         <div className="md:flex items-center justify-center  px-10 ">
           {stores.map((store, index) => (
