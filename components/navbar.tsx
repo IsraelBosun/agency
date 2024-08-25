@@ -58,9 +58,9 @@ const Navbar = ({
           <div onClick={scrollToWebsiteDesign} className="hover:text-gray-50">
             App Design
           </div>
-          <div onClick={scrollToGraphicDesign} className="hover:text-gray-50">
+          {/* <div onClick={scrollToGraphicDesign} className="hover:text-gray-50">
             Graphic Design
-          </div>
+          </div> */}
 
           <div onClick={scrollToShopifyStores} className="hover:text-gray-50">
             Website Design

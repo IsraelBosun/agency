@@ -90,7 +90,7 @@ const SliderOne = () => {
           </div>
         </>
 
-        <>
+        {/* <>
           <div className="rounded-md px-2 md:p-10">
             <Image
               priority
@@ -103,7 +103,7 @@ const SliderOne = () => {
                       "
             />
           </div>
-        </>
+        </> */}
       </Slider>
     </div>
   );

@@ -87,15 +87,15 @@ export default function Home() {
         <div ref={websiteDesignRef}>
           <WebsiteDesign />
         </div>
-        <div ref={graphicDesignRef}>
+        {/* <div ref={graphicDesignRef}>
           <GraphicDesign />
-        </div>
+        </div> */}
         <div ref={shopifyStoresRef}>
           <ShopifyStores />
         </div>
-        <div ref={brandsRef}>
+        {/* <div ref={brandsRef}>
           <Brands />
-        </div>
+        </div> */}
         <div id ='services'>
         <Services />
         </div>

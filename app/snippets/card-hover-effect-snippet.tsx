@@ -24,13 +24,6 @@ export const projects = [
        
       },
       {
-        icon : <div className="bg-blue-100 p-4 rounded-full"><PiLock className="w-8 h-8 text-blue-600" /></div>,
-        title: "Authentication",
-        description:
-          "Secure authentication solutions for your website or app. We use the latest technology to keep your data safe.",
-      
-      },
-      {
         icon : <div className="bg-blue-100 p-4 rounded-full"><PiMegaphone className="w-8 h-8 text-blue-600" /></div>,
         title: "Social Media",
         description:
