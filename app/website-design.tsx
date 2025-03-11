@@ -162,6 +162,8 @@
 // export default WebsiteDesign;
 
 
+
+
 "use client";
 
 import Image from "next/image";
@@ -192,19 +194,24 @@ const WebsiteDesign = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 py-10">
-        {imageData.map((src, index) => (
-          <Image
-            key={index}
-            width={500}
-            height={500}
-            priority
-            className="h-auto max-w-full rounded-lg object-cover"
-            src={src}
-            alt={`Design ${index + 1}`}
-          />
-        ))}
+      <div className="py-10">
+  <div className="columns-2 md:columns-4 gap-4">
+    {imageData.map((src, index) => (
+      <div key={index} className="mb-4 break-inside-avoid">
+        <Image
+          src={src}
+          alt={`Design ${index + 1}`}
+          // Use actual dimensions for each image if available
+          width={500} 
+          height={800} 
+          className="rounded-lg object-cover w-full"
+          priority
+        />
       </div>
+    ))}
+  </div>
+</div>
+
     </div>
   );
 };

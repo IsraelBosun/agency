@@ -292,11 +292,11 @@ export default function ContactForm() {
                         </SelectTrigger>
                       </FormControl>
                       <SelectContent>
-                        <div className="flex gap-4">
+                        {/* <div className="flex gap-4">
                           <SelectItem value="Evaluate Bird for my company">
                             Evaluate Bird for my company
                           </SelectItem>
-                        </div>
+                        </div> */}
                         <SelectItem value="Learn More">Learn More</SelectItem>
                         <SelectItem value="Get a Quote">Get a Quote</SelectItem>
 
@@ -335,8 +335,8 @@ export default function ContactForm() {
                   />
                 </div>
                 <div className="text-xs font-light  md:w-3/4 mb-1 bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
-                  I agree to Bird&apos; sending marketing communications related
-                  to bird
+                  I agree to BlueHydra sending marketing communications related
+                  to Bluehydra
                 </div>
               </div>
 
